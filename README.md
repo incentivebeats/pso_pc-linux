@@ -5,7 +5,7 @@ If you do not wish to install PSO V2 on PC manually, you can try my Linux instal
 bash mount_iso.sh
 bash install.sh
 ```
-When prompted to install, select English and also select *Normal Install*, do not do a full install. Once complete follow the instructions starting with `## 7) (Optional) Add to Lutris`.  
+When prompted to install, select English and also select *Normal Install*, do not do a full install. Once complete follow the instructions starting with `## 6) Drop in patched Launchers`.  
 
 ## ⚠️ Important Notes
 
@@ -83,9 +83,9 @@ While in **winecfg**:
 
 ---
 
-## 6) Drop in the IVES Launchers
+## 6) Drop in patched Launchers
 
-Copy these from the IVES zip into your PSO folder:
+Copy these from the patched launchers, typically files look like:
 
 ```
 autorun.exe
