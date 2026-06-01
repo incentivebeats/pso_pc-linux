@@ -1,9 +1,11 @@
-# Phantasy Star Online Ver. 2 (PC) — Linux Rulebook
-
-**Target:** Linux desktop · **Runner:** Wine (Lutris optional) · **Game:** PSO Ver.2 (PC)  
-**Outcome:** Clean, per-game Wine prefix with working DirectMusic/DirectSound, optional high‑quality BGM, and optional dgVoodoo2 graphics fixes.
-
----
+# Phantasy Star Online Ver. 2 (PC)
+---  
+If you do not wish to install PSO V2 on PC manually, you can try my Linux install script instead. Be sure to correctly fill out the paths in .env before running.  
+```
+bash mount_iso.sh
+bash install.sh
+```
+When prompted to install, select English and also select *Normal Install*, do not do a full install. Once complete follow the instructions starting with `## 7) (Optional) Add to Lutris`.  
 
 ## ⚠️ Important Notes
 
