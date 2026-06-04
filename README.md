@@ -95,12 +95,11 @@ Also in winecfg:
 
 ## 5. Drop in Patched Launchers
 
-Copy the following into `$GAMEDIR`:
+Copy the following into `$GAMEDIR`, they are usually named as the following. Sometimes you may see an online_offline.exe file and sometimes not:
 
 ```
 autorun.exe
 online.exe
-online_offline.exe
 pso.exe
 ```
 
