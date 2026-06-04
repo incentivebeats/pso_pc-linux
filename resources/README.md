@@ -4,7 +4,7 @@ These resources can help you get started with Phantasy Star Online PC.
 
 ### 1. D3D8.dll and dgVoodoo Config
 
-> **Disclaimer:** Created with LLM assistance (Claude). This D3D8 file targets widescreen and attempts to address culling and draw distance issues. Default dgVoodoo settings are tuned for 14:9, which works best with the 2D UI. The file is experimental and has known issues. If you'd prefer not to use something LLM-assisted or experimental, use a standard D3D8.dll or another source.
+> **Disclaimer:** Created with LLM assistance (Claude). Originally attempted to target widescreen support and fix culling issues outside the 4:3 frame, but decided to stick to assuming 4:3 presentation as culling became too much to figure out.
 
 ### 2. PSO Palace Mods
 
