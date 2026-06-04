@@ -22,7 +22,7 @@ sudo apt install -y wine winetricks lutris cabextract unzip p7zip-full ffmpeg
 
 ## 2. Install PSO
 
-**Option A — Install scripts:** Create a `.env` file in the same directory as the scripts with the following contents, then run:
+**Option A — Install scripts:** Edit the `.env` file in the same directory as the scripts with the following contents:
 
 ```bash
 # Path to your PSO PC installer ISO
