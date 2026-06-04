@@ -1,11 +1,5 @@
 # Phantasy Star Online Ver. 2 (PC)
 ---  
-If you do not wish to install PSO V2 on PC manually, you can try my Linux install script instead. Be sure to correctly fill out the paths in .env before running.  
-```
-bash mount_iso.sh
-bash install.sh
-```
-When prompted to install, select English and also select *Normal Install*, do not do a full install. Once complete follow the instructions starting with `## 6) Drop in patched Launchers`.  
 
 ## ⚠️ Important Notes
 
@@ -16,13 +10,20 @@ When prompted to install, select English and also select *Normal Install*, do no
 
 ---
 
-## 1) Requirements
+## 1) Requirements (check your distro for compatible packages if not Debian based)
 
 ```bash
 # Debian/Ubuntu family (adapt package names for your distro)
 sudo apt update
 sudo apt install -y wine winetricks lutris cabextract unzip p7zip-full ffmpeg
 ```
+
+If you do not wish to install PSO V2 on PC manually, you can try my Linux install script instead. Be sure to correctly fill out the paths in .env before running.  
+```
+bash mount_iso.sh
+bash install.sh
+```
+When prompted to install, select English and also select *Normal Install*, do not do a full install. Once complete follow the instructions starting with `## 6) Drop in patched Launchers`.  
 
 ---
 
