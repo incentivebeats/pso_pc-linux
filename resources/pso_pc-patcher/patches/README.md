@@ -52,7 +52,7 @@ python3 pso_pc_patcher.py /path/to/online.exe \
 
 ### `pso_exe_dragon.toml`
 
-Patches `pso.exe` to bypass the Dragon BML selector issue by forcing the game to skip `bm_boss1_dragon_b.bml`. No more glitched out dragon for certain renderers. This patch will work on Sylverant but will not work on Ragol (they will force their own pso.exe to overwrite once their patch server detects your binary isn't 1:1 with what the server expects).
+Patches `pso.exe` to bypass the Dragon BML selector issue by forcing the game to skip `bm_boss1_dragon_b.bml`. No more glitched out dragon for certain renderers. This patch will work and is allowed on Sylverant, but will not work on Ragol (they will force their own pso.exe to overwrite once their patch server detects your binary isn't 1:1 with what the server expects).
 
 Verify:
 
