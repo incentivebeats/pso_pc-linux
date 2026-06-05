@@ -2,17 +2,6 @@
 """
 Generic PSO PC binary patcher.
 
-Repo naming:
-  pso_pc-patcher
-
-Suggested layout:
-  pso_pc-patcher/
-    README.md
-    LICENSE
-    pso_pc_patcher.py
-    patches/
-      dragon_bml_selector_bypass.toml
-
 Common usage:
 
   python3 pso_pc_patcher.py pso.exe --patch patches/dragon_bml_selector_bypass.toml --verify
