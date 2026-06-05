@@ -51,7 +51,7 @@ python3 pso_pc_patcher.py /path/to/online.exe \
 
 ### `pso_exe_dragon.toml`
 
-Patches `pso.exe` to bypass the Dragon BML selector issue by forcing the game to skip `bm_boss1_dragon_b.bml`.
+Patches `pso.exe` to bypass the Dragon BML selector issue by forcing the game to skip `bm_boss1_dragon_b.bml`. No more glitched out dragon for certain renderers.
 
 Verify:
 
