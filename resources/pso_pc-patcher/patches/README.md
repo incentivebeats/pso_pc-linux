@@ -1,8 +1,10 @@
 ## Patch files
 
+All commands below assume they are run from the patcher repo root.
+
 ### `autorun_exe_region_bypass.toml`
 
-Patches `autorun.exe` with the Sylverant-style compatibility fixes. This bypasses the Japanese system-language check and skips a startup mismatch branch that can break the launcher under Wine.
+Patches `autorun.exe` to bypass a system-language check and skip a launcher startup branch that can break under Wine.
 
 Verify:
 
@@ -22,16 +24,16 @@ python3 pso_pc_patcher.py /path/to/autorun.exe \
 
 ### `online_exe_server.toml`
 
-Patches the IVES/Sylverant-style `online.exe` launcher/update wrapper to use a custom account URL, patch host, and patch base URL. This is separate from `pso.exe` server patching.
+Patches `online.exe` to use a custom account URL, patch host, and patch base URL. This is separate from `pso.exe` server patching.
 
 Verify:
 
 ```bash
 python3 pso_pc_patcher.py /path/to/online.exe \
   --patch patches/online_exe_server.toml \
-  --set account_url=http://108.175.11.140/account/ \
-  --set patch_host=108.175.11.140 \
-  --set patch_base_url=http://108.175.11.140 \
+  --set account_url=http://YOUR_HOST_OR_IP/account/ \
+  --set patch_host=YOUR_HOST_OR_IP \
+  --set patch_base_url=http://YOUR_HOST_OR_IP \
   --verify
 ```
 
@@ -40,9 +42,9 @@ Apply:
 ```bash
 python3 pso_pc_patcher.py /path/to/online.exe \
   --patch patches/online_exe_server.toml \
-  --set account_url=http://108.175.11.140/account/ \
-  --set patch_host=108.175.11.140 \
-  --set patch_base_url=http://108.175.11.140 \
+  --set account_url=http://YOUR_HOST_OR_IP/account/ \
+  --set patch_host=YOUR_HOST_OR_IP \
+  --set patch_base_url=http://YOUR_HOST_OR_IP \
   --apply
 ```
 
@@ -68,14 +70,14 @@ python3 pso_pc_patcher.py /path/to/pso.exe \
 
 ### `pso_exe_server.toml`
 
-Patches all three 2002-layout `pso.exe` server-address slots to a custom hostname or IPv4 address. This is intended for the Sylverant/Ives/Ragol 2002-layout `pso.exe`, not the older 2001 install-layout `pso.exe`.
+Patches all three `pso.exe` server-address slots to a custom hostname or IPv4 address.
 
 Verify:
 
 ```bash
 python3 pso_pc_patcher.py /path/to/pso.exe \
   --patch patches/pso_exe_server.toml \
-  --set address=108.175.11.140 \
+  --set address=YOUR_HOST_OR_IP \
   --verify
 ```
 
@@ -84,7 +86,6 @@ Apply:
 ```bash
 python3 pso_pc_patcher.py /path/to/pso.exe \
   --patch patches/pso_exe_server.toml \
-  --set address=108.175.11.140 \
+  --set address=YOUR_HOST_OR_IP \
   --apply
 ```
-
