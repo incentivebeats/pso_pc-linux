@@ -1,5 +1,5 @@
 # pso_pc-patcher
-This patcher is designed to work against a later version of pso.exe that is already used on other servers and assumes you are already using that version (which I believe is a SEGA patch version from 2002). This means the patcher will not work against the pso.exe generated from ISO install yet, but will work against autorun.exe and online.exe generated from ISO install. 
+This patcher is designed to work against a later version of pso.exe that is already used on other servers and assumes you are already using that version (which I believe is a SEGA patch version from 2002). This means the patcher will not work against the 2001 pso.exe generated from ISO install yet, but will work against autorun.exe and online.exe generated from ISO install. 
 
 Refer to [Patches](https://github.com/incentivebeats/pso_pc/tree/main/resources/pso_pc-patcher/patches) for an explanation of each patch and how to run the commands.
   
