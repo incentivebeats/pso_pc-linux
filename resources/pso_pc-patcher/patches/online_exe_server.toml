@@ -1,5 +1,5 @@
 name = "PSO PC online.exe patch server override"
-description = "Patch the PSO PC online.exe launcher/update wrapper to use a custom patch/account host. This targets the 2001 online.exe layout used by the IVES/Sylverant-style patched launcher. It is separate from pso.exe server patching."
+description = "Patch the PSO PC online.exe launcher/update wrapper to use a custom patch/account host. This is separate from pso.exe server patching."
 image_base = "0x00400000"
 
 [input.account_url]
@@ -7,7 +7,7 @@ required = true
 type = "ascii"
 max_length = 32
 encoding = "ascii-nul-padded"
-description = "Account/register URL field at VA 0x0046C4B9. For Peeps IP use: http://108.175.11.140/account/"
+description = "Account/register URL field at VA 0x0046C4B9."
 
 [input.patch_host]
 required = true
@@ -21,7 +21,7 @@ required = true
 type = "ascii"
 max_length = 30
 encoding = "ascii-nul-padded"
-description = "Base URL field at VA 0x0046C4FA. For Peeps IP use: http://108.175.11.140"
+description = "Base URL field at VA 0x0046C4FA."
 
 [[patches]]
 label = "force online.exe patch host pointer"
