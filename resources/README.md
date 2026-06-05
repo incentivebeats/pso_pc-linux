@@ -12,7 +12,7 @@ The following are recommended from [PSO Palace](https://psopalace.sylverant.net/
 - PSO PC Max Stat Patch
 - PSO PC Offline Quest Pack
 
-### 1. PSO PC Patcher  
+### 2. PSO PC Patcher  
 
 A [Patcher](https://github.com/incentivebeats/pso_pc-linux/tree/main/resources/pso_pc-patcher) using Python that will help you:
 - Fix the Dragon glitch on certain renderers
