@@ -1,6 +1,7 @@
 ## Patch files
 
-All commands below assume they are run from the patcher repo root.
+All commands below assume they are run from the patcher repo root.  
+This patcher assumes you are using binaries used on other servers and distributed online. If you are using original binaries from the 2001 ISO files, these patches will not likely work.
 
 ### `autorun_exe_region_bypass.toml`
 
