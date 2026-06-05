@@ -26,7 +26,7 @@ python3 pso_pc_patcher.py /path/to/autorun.exe \
 
 ### `online_exe_server.toml`
 
-Patches `online.exe` to use a custom account URL, patch host, and patch base URL. This is separate from `pso.exe` server patching.
+Patches `online.exe` to use a custom account URL, patch host, and patch base URL. This is separate from `pso.exe` server patching. Patching `/account` here is probably not needed but done anyway.
 
 Verify:
 
