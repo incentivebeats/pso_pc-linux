@@ -1,0 +1,8 @@
+name = "PSO PC Dragon BML selector bypass"
+image_base = "0x00400000"
+
+[[patches]]
+label = "Force Dragon selector to skip bm_boss1_dragon_b.bml"
+va = "0x00420326"
+expected = "74 14"
+wanted = "EB 14"

@@ -1,0 +1,58 @@
+name = "PSO PC online.exe patch server override"
+description = "Patch the PSO PC online.exe launcher/update wrapper to use a custom patch/account host. This targets the 2001 online.exe layout used by the IVES/Sylverant-style patched launcher. It is separate from pso.exe server patching."
+image_base = "0x00400000"
+
+[input.account_url]
+required = true
+type = "ascii"
+max_length = 32
+encoding = "ascii-nul-padded"
+description = "Account/register URL field at VA 0x0046C4B9. For Peeps IP use: http://108.175.11.140/account/"
+
+[input.patch_host]
+required = true
+type = "ascii"
+max_length = 15
+encoding = "ascii-nul-padded"
+description = "Patch server hostname/IP field pushed by the code hook at VA 0x0046C4DA. IPv4 addresses fit; long DNS names do not."
+
+[input.patch_base_url]
+required = true
+type = "ascii"
+max_length = 30
+encoding = "ascii-nul-padded"
+description = "Base URL field at VA 0x0046C4FA. For Peeps IP use: http://108.175.11.140"
+
+[[patches]]
+label = "force online.exe patch host pointer"
+va = "0x004043B2"
+file_offset = "0x000039B2"
+expected = "85 C0 74 7A 56"
+wanted = "68 DA C4 46 00"
+
+[[patches]]
+label = "account/register URL"
+va = "0x0046C4B9"
+file_offset = "0x0006B6B9"
+mode = "fixed_ascii_z"
+field_size = 33
+value_from_input = "account_url"
+expected = "any"
+
+[[patches]]
+label = "patch server host"
+va = "0x0046C4DA"
+file_offset = "0x0006B6DA"
+mode = "fixed_ascii_z"
+field_size = 16
+value_from_input = "patch_host"
+expected = "any"
+
+[[patches]]
+label = "patch server base URL"
+va = "0x0046C4FA"
+file_offset = "0x0006B6FA"
+mode = "fixed_ascii_z"
+field_size = 31
+value_from_input = "patch_base_url"
+expected = "any"

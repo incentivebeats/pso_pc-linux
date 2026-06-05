@@ -1,0 +1,37 @@
+name = "PSO PC 2002 server address override"
+description = "Patch all three PSO PC 2002 server-address slots to a user-provided ASCII hostname or IPv4 address. Intended for the Sylverant/Ives/Ragol 2002-layout pso.exe, not the older 2001 install-layout pso.exe."
+image_base = "0x00400000"
+
+[input.address]
+required = true
+type = "ascii"
+max_length = 23
+encoding = "ascii-nul-padded"
+description = "Hostname or IPv4 address to write into each 24-byte server-address slot, e.g. 108.175.11.140. Must be 23 ASCII bytes or fewer so one trailing NUL fits."
+
+[[patches]]
+label = "server address slot 1"
+va = "0x0069CB34"
+file_offset = "0x0029CB34"
+mode = "fixed_ascii_z"
+field_size = 24
+value_from_input = "address"
+expected = "any"
+
+[[patches]]
+label = "server address slot 2"
+va = "0x0069CB4C"
+file_offset = "0x0029CB4C"
+mode = "fixed_ascii_z"
+field_size = 24
+value_from_input = "address"
+expected = "any"
+
+[[patches]]
+label = "server address slot 3"
+va = "0x0069CB64"
+file_offset = "0x0029CB64"
+mode = "fixed_ascii_z"
+field_size = 24
+value_from_input = "address"
+expected = "any"

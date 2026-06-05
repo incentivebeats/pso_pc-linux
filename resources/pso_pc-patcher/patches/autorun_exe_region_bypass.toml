@@ -1,0 +1,14 @@
+name = "PSO PC autorun Sylverant compatibility patch"
+image_base = "0x00400000"
+
+[[patches]]
+label = "Bypass Japanese system language check"
+va = "0x0040167C"
+expected = "74"
+wanted = "EB"
+
+[[patches]]
+label = "Bypass autorun startup mismatch branch"
+va = "0x00401721"
+expected = "75 16"
+wanted = "90 90"
