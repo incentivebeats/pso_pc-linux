@@ -5,7 +5,7 @@ This patcher assumes you are using binaries used on other servers and distribute
 
 ### `autorun_exe_region_bypass.toml`
 
-Patches `autorun.exe` to bypass a system-language check and skip a launcher startup branch that can break under Wine.
+Patches `autorun.exe` to bypass a system-language check and skip a launcher startup branch that can break under Wine. If you're already using an autorun.exe from another server and it already works then you likely don't need to touch this.  
 
 Verify:
 
