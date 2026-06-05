@@ -1,5 +1,6 @@
 # pso_pc-patcher
-
+This patcher assumes you are using binaries used on other servers and distributed online. If you are using original binaries from the 2001 ISO files, these patches will not likely work.  
+  
 ## Usage
 
 Verify one patch:
