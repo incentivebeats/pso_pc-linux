@@ -1,5 +1,7 @@
 # pso_pc-patcher
-This patcher assumes you are using binaries used on other servers and distributed online, which I believe is a later SEGA version from 2002. If you are using original binaries from the 2001 ISO files after a clean install, these patches will not likely work.  
+This patcher assumes you are using binaries used on other servers and distributed online, which I believe is a later SEGA version from 2002. If you are using original binaries from the 2001 ISO files after a clean install, these patches will not likely work. 
+
+Refer to (Patches)[https://github.com/incentivebeats/pso_pc/tree/main/resources/pso_pc-patcher/patches] for an explanation of each patch and how to run the commands.
   
 ## Usage
 
