@@ -1,5 +1,5 @@
 # pso_pc-patcher
-This patcher assumes you are using binaries used on other servers and distributed online. If you are using original binaries from the 2001 ISO files, these patches will not likely work.  
+This patcher assumes you are using binaries used on other servers and distributed online, which I believe is a later SEGA version from 2002. If you are using original binaries from the 2001 ISO files, these patches will not likely work.  
   
 ## Usage
 
