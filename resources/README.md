@@ -8,9 +8,9 @@ Resources for setting up PSO PC Version 2 across servers and offline play.
 
 No direct links are provided for ISOs or pre-patched EXEs, but they are readily available:
 
-- **Internet Archive** search for PSO PC Version 2
-- **Server communities** many host pre-patched ISOs for their specific server
-- **Retail disc** used copies work fine, rip your own ISOs
+- **Internet Archive**- search for PSO PC Version 2
+- **Server communities**- many host pre-patched ISOs for their specific server
+- **Retail disc**- used copies work fine, rip your own ISOs
 
 ---
 
