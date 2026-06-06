@@ -49,7 +49,7 @@ The mod ships six files- you only need two, as the others are byte-for-byte iden
 
 ### Compatibility note
 
-This patcher targets a later version of `pso.exe` already in use on other servers. It will **not** patch a `pso.exe` generated directly from a fresh ISO install — but it does work against `autorun.exe` and `online.exe` from an ISO install.
+This patcher targets a later version of `pso.exe` already in use on other servers. It will **not** patch a `pso.exe` generated directly from a fresh ISO install but it does work against `autorun.exe` and `online.exe` from an ISO install.
 
 ### ⚠️ Patch server warning
 
