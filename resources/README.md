@@ -29,3 +29,5 @@ A [Patcher](https://github.com/incentivebeats/pso_pc-linux/tree/main/resources/p
 - Change the Japanese region in autorun.exe so it properly opens
 
 This patcher is designed to work against a later version of pso.exe that is already used on other servers and assumes you are already using that version. This means the patcher will *not* work against the pso.exe generated from ISO install yet, but will work against autorun.exe and online.exe generated from ISO install.
+
+Also be warned that since PSO PC uses a patch server, your patches may be overwritten depending on what the server forces downstream (this can include overwriting .exe files and other files related to graphics, drops, enemies, etc.,)
