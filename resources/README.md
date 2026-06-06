@@ -39,7 +39,7 @@ The mod ships six files- you only need two, as the others are byte-for-byte iden
 
 ## 4. PSO PC Patcher
 
-[GitHub](https://github.com/incentivebeats/pso_pc-linux/tree/main/resources/pso_pc-patcher) — a Python patcher for common setup tasks:
+[PSO PC Patcher](https://github.com/incentivebeats/pso_pc-linux/tree/main/resources/pso_pc-patcher)- a Python patcher for common setup tasks:
 
 - **Fix the Dragon boss rendering glitch** on certain renderers
   - ✅ Allowed on Sylverant
