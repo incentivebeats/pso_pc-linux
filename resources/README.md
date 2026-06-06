@@ -16,7 +16,12 @@ The following are recommended from [PSO Palace](https://psopalace.sylverant.net/
 - PSO PC Max Stat Patch
 - PSO PC Offline Quest Pack
 
-### 3. PSO PC Patcher  
+### 3. Ragol Vanilla+ Offline Mod
+[Mod from Ragol](https://ragol.org/pc-downloads) that changes offline drop rates so items can be "realistically found". From what I can tell, even though the mod offers six files you really only need two files as the others appear byte-for-byte compatible with originals: 
+- `ItemPT.afs`
+- `ItemRT.afs`
+
+### 4. PSO PC Patcher  
 
 A [Patcher](https://github.com/incentivebeats/pso_pc-linux/tree/main/resources/pso_pc-patcher) using Python that will help you:
 - Fix the Dragon glitch on certain renderers
