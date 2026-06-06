@@ -6,7 +6,7 @@ This patcher is designed to work against a later version of pso.exe that is alre
 
 ### `autorun_exe_region_bypass.toml`
 
-Patches `autorun.exe` to bypass a system-language check and skip a launcher startup branch that can break under Wine. If you're already using an autorun.exe from another server and it already works then you likely don't need to touch this.  
+Patches `autorun.exe` to bypass a system-language check and skip a launcher startup branch that can break under Wine. Works on any version of of PSO PC, but is probably unncessary to run if you're already using patched files for another server.
 
 Verify:
 
@@ -26,7 +26,7 @@ python3 pso_pc_patcher.py /path/to/autorun.exe \
 
 ### `online_exe_server.toml`
 
-Patches `online.exe` to use a custom account URL, patch host, and patch base URL. This is separate from `pso.exe` server patching. Patching `/account` here is probably not needed but done anyway.
+Patches `online.exe` to use a custom account URL, patch host, and patch base URL. This is separate from `pso.exe` server patching. Patching `/account` here is probably not needed but done anyway. 
 
 Verify:
 
@@ -52,7 +52,7 @@ python3 pso_pc_patcher.py /path/to/online.exe \
 
 ### `pso_exe_dragon.toml`
 
-Patches `pso.exe` to bypass the Dragon BML selector issue by forcing the game to skip `bm_boss1_dragon_b.bml`. No more glitched out dragon for certain renderers. This patch will work and is allowed on Sylverant, but will not work on Ragol (they will force their own pso.exe to overwrite once their patch server detects your binary isn't 1:1 with what the server expects).
+Patches `pso.exe` to bypass the Dragon BML selector issue by forcing the game to skip `bm_boss1_dragon_b.bml`. No more glitched out dragon for certain renderers. This patch will work and is allowed on Sylverant's pso.exe, but will not work on Ragol's pso.exe (they will force their own pso.exe to overwrite once their patch server detects your binary isn't 1:1 with what the server expects).
 
 Verify:
 
@@ -72,7 +72,7 @@ python3 pso_pc_patcher.py /path/to/pso.exe \
 
 ### `pso_exe_server.toml`
 
-Patches all three `pso.exe` server-address slots to a custom hostname or IPv4 address.
+Patches all three `pso.exe` server-address slots to a custom hostname or IPv4 address. This is only tested and working against pso.exe files from Sylverant/Ragol and will likely not work against the base `pso.exe` from a fresh install.
 
 Verify:
 
