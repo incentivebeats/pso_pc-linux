@@ -4,7 +4,7 @@ These resources can help you get started with Phantasy Star Online PC.
 
 ### 1. ISOs
 
-I cannot directly link to any ISO files, but you can easily find them on the Internet Archive. There are also plenty of other resources to find already patched ISOs for different servers. You can also buy a used copy of the game and use your own ISOs too.  
+I cannot directly link to any ISO files or patched EXEs, but you can easily find them on the Internet Archive. There are also plenty of other resources to find already patched ISOs for different servers. You can also buy a used copy of the game and use your own ISOs too.  
 
 ### 2. PSO Palace Mods
 
