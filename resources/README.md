@@ -10,7 +10,7 @@ No direct links are provided for ISOs or pre-patched EXEs, but they are readily 
 
 - **Internet Archive** — search for PSO PC Version 2
 - **Server communities** — many host pre-patched ISOs for their specific server
-- **Retail disc** — used copies work fine; rip your own ISOs
+- **Retail disc** — used copies work fine, rip your own ISOs
 
 ---
 
@@ -30,7 +30,7 @@ Recommended patches from [PSO Palace](https://psopalace.sylverant.net/downloads_
 
 [Available at ragol.org](https://ragol.org/pc-downloads). Adjusts offline drop rates so items can be realistically found.
 
-The mod ships six files — you only need two, as the others are byte-for-byte identical to originals:
+The mod ships six files- you only need two, as the others are byte-for-byte identical to originals:
 
 - `ItemPT.afs`
 - `ItemRT.afs`
