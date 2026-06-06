@@ -24,7 +24,7 @@ The following are recommended from [PSO Palace](https://psopalace.sylverant.net/
 ### 4. PSO PC Patcher  
 
 A [Patcher](https://github.com/incentivebeats/pso_pc-linux/tree/main/resources/pso_pc-patcher) using Python that will help you:
-- Fix the Dragon glitch on certain renderers
+- Fix the Dragon glitch on certain renderers (allowed/works on Sylverant, will not work on Ragol)
 - Change DNS addresses in online.exe and pso.exe
 - Change the Japanese region in autorun.exe so it properly opens
 
