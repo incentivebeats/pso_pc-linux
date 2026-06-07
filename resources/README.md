@@ -43,6 +43,7 @@ The mod ships six files- you only need two, as the others are byte-for-byte iden
 
 - **Fix the Dragon boss rendering glitch** on certain renderers
   - ✅ Allowed on Sylverant
+  - ✅ Offered as a menu patch already on Peeps (Peeps players do not need to run patcher)
   - ❌ Will not work on Ragol
 - **Change DNS addresses** in `online.exe` and `pso.exe`
 - **Fix the Japanese region** in `autorun.exe` so it opens correctly
